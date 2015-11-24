@@ -1,10 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+#map-canvas {
+	height: 700px;
+}
+
 body {
-	text-align: center;
-	p {
-		color: green;
-	}
+	text-align: left;
 	#map {
 		height: 500px;
 	}
 
+}
+
+.left-side {
+	text-align: left;
+	button {
+		width: 200px;
+		margin-bottom: 40px;
+		background: crimson;
+	}
+	* {
+		margin-left: 5px;
+	}
+}
+
+.buttons {
+	padding-top: 5px;
+	text-align: left;
+	height: 350px;
+
+	h2 {
+		padding-bottom: 30px;
+	}
+}
+
+.info {
+	font-size: 18px;
+	text-align: left;
+}
+
+.right-side {
+	padding-left: 30px;
+	text-align: left;
+	p {
+		font-size: 30px;
+	}
+	li {
+		font-size: 18px;
+	}
+}
+.today {
+	color: crimson; 
+}
+
+.navbar-inverse .navbar &gt; li &gt; a, .navbar-inverse .navbar-brand {
+    color: crimson;
+}
+
+.btn {
+	color: crimson;
+	background-color: crimson;
 }

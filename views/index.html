@@ -3,14 +3,82 @@
 {% block content %}
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-lg-3">
-			One
+		<div class="col-lg-3 col-md-3 col-sm-3 left-side">
+		<div class="buttons">
+			<h2>Plan your day:</h2>
+		<div class="dropdown">
+		  <button class="btn-lg btn-danger dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-lamp"></span> Hotels
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+		    <li><a href="#">HTML</a></li>
+		    <li><a href="#">CSS</a></li>
+		    <li><a href="#">JavaScript</a></li>
+		  </ul>
 		</div>
-		<div class="col-lg-6">
-			Two
+		<div class="dropdown">
+		  <button class="btn-lg btn-danger dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-cutlery"></span> Restaurants
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+		    <li><a href="#">HTML</a></li>
+		    <li><a href="#">CSS</a></li>
+		    <li><a href="#">JavaScript</a></li>
+		  </ul>
 		</div>
-		<div class="col-lg-3">
-			Three
+		<div class="dropdown">
+		  <button class="btn-lg btn-danger dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-tree-deciduous"></span> Activities
+		  <span class="caret"></span></button>
+		  <ul class="dropdown-menu">
+		    <li><a href="#">HTML</a></li>
+		    <li><a href="#">CSS</a></li>
+		    <li><a href="#">JavaScript</a></li>
+		  </ul>
+		</div>
+				</div>
+				<hr>
+		  <div class="info">
+		  	<h4><strong>More info about your choice:</strong></h4>
+		  	<br>
+		  	<address>
+		  		<span class="today">Fullstack Academy</span><br>
+		  		<span>5 Hanover Square</span><br>
+		  		<span>Floor 25</span><br>
+		  		<span>New York, NY 11211</span><br>
+		  		<span>(212) 555-1234</span>
+		  	</address>
+		  	<p>Rating: <span class="today"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></span></p>
+		  </div>
+		</div>
+
+
+		<div id="map-canvas" class="col-lg-6 col-md-6 col-sm-6">
+	
+		</div>
+
+
+		<div class="col-lg-3 col-md-3 col-sm-3 right-side">
+			<div class="days">
+				<p><span class="glyphicon glyphicon-time"></span> <span class="today">1</span> 2 3 4 5</p>
+			</div>
+			<div>
+				<h2>Today's Plans:</h2>
+				<hr>
+				<h4>Accomodations:</h4>
+				<ul>
+				<li>Andaz</li>
+				</ul>
+				<br>
+				<h4>Restaurants:</h4>
+				<ul>
+				<li>Justino's Pizzeria</li>
+				<li>Leo's Bagels</li>
+				</ul>
+				<br>
+				<h4>Activities:</h4>
+				<ul>
+				<li>Fullstack Academy</li>
+				<li>Battery Park</li>
+				<li>NYSE</li>
+				</ul>
 		</div>
 	</div>
 </div>

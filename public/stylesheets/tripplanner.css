@@ -1,7 +1,40 @@
+* {
+  box-sizing: border-box; }
+
+#map-canvas {
+  height: 700px; }
+
 body {
   text-align: center; }
-  body p {
-    color: green; }
   body #map {
-    height: 400px; 
-}
+    height: 500px; }
+
+.left-side {
+  text-align: left; }
+  .left-side button {
+    width: 200px;
+    margin-bottom: 40px; }
+  .left-side * {
+    margin-left: 5px; }
+
+.buttons {
+  padding-top: 5px;
+  text-align: center;
+  height: 350px; }
+  .buttons h2 {
+    padding-bottom: 30px; }
+
+.info {
+  font-size: 18px;
+  text-align: left; }
+
+.right-side {
+  padding-left: 30px;
+  text-align: left; }
+  .right-side p {
+    font-size: 30px; }
+  .right-side li {
+    font-size: 18px; }
+
+.today {
+  color: crimson; }
