@@ -1,0 +1,7 @@
+body {
+  text-align: center; }
+  body p {
+    color: green; }
+  body #map {
+    height: 400px; 
+}
